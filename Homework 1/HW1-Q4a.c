@@ -4,7 +4,9 @@
 int computeHomeValue(int popularity, int size);
 
 int main() {
-    int popularity, size, homeValue;
+    int popularity;
+    int size;
+    int homeValue;
 
     printf("Enter popularity: ");
     scanf("%d", &popularity);
